@@ -1,0 +1,1495 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>球鞋商城</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <!-- CSS 
+    ========================= -->
+    <!--bootstrap min css-->
+    <!-- 引入bootstrap 的样式表 -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--owl carousel min css-->
+    <!-- 轮播图组件的样式表 -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!--slick min css-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!--magnific popup min css-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--font awesome css-->
+    <link rel="stylesheet" href="assets/css/font.awesome.css">
+    <!--ionicons min css-->
+    <link rel="stylesheet" href="assets/css/ionicons.min.css">
+    <!--animate css-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--jquery ui min css-->
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+    <!--slinky menu css-->
+    <link rel="stylesheet" href="assets/css/slinky.menu.css">
+    <!--plugins css-->
+    <!-- 引入第三方的文本样式 -->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- 
+        使用炫酷新颖的 web 技术是一件很有趣的事情，但你不得不面对落后的浏览器。
+        Modernizr 使你可以方便地为各种情况编写 JavaScript 和 CSS，无论浏览器是否支持这些特性。这是处理渐进增强的完美方案。
+        http://modernizr.cn/
+    -->
+    <!--modernizr min js here-->
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+
+
+    <!-- 顶部导航栏 -->
+    <header>
+        <div class="main_header sticky-header">
+            <!-- .container-fluid 类用于创建一个全屏幕尺寸的容器，容器始终跨越整个屏幕宽度（width 始终为 100%）： -->
+            <div class="container-fluid">
+                <!-- .container-fluid (全屏宽度) 类的容器中，这样就可以自动设置一些外边距与内边距。 -->
+                <div class="row align-items-center">
+                    <!-- 元素居中对齐 -->
+                    <!-- BootStrap中网格系统 -->
+                    <!-- Bootstrap 提供了一套响应式、移动设备优先的流式网格系统，随着屏幕或视口（viewport）尺寸的增加，系统会自动分为最多 12 列。 -->
+                    <!-- .col- 针对所有设备。
+                    .col-sm- 平板 - 屏幕宽度等于或大于 576px。
+                    .col-md- 桌面显示器 - 屏幕宽度等于或大于 768px。
+                    .col-lg- 大桌面显示器 - 屏幕宽度等于或大于 992px。
+                    .col-xl- 特大桌面显示器 - 屏幕宽度等于或大于 1200px。
+                    .col-xxl- 超大桌面显示器 - 屏幕宽度等于或大于 1400px。 -->
+                    <!-- Flexbox 的一大优势是，没有指定宽度的网格列将自动设置为等宽与等高列 -->
+                    <div class="col-lg-2">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/logo/logo.png"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <!--main menu start-->
+                        <div class="main_menu menu_center menu_position">
+                            <!-- <nav> 标签定义导航链接的部分。 -->
+                            <nav>
+                                <ul>
+                                    <li><a class="active" href="index.html">首页</a>
+
+                                    </li>
+                                    <li class="mega_items"><a href="shop.html">商城</a>
+
+                                    </li>
+                                     <li><a href="blog.html">博客</a>
+
+                                    </li>
+
+                                </ul>
+                            </nav>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-2">
+                        <!-- 搜索 -->
+                        <!-- 设置一个弹性盒子 -->
+                        <div class="header_account_area">
+                            <div class="header_account-list search_bar">
+                                <a href="javascript:void(0)"><span class="icon icon-Search"></span></a>
+                                <div class="dropdown_search">
+                                    <div class="search_close_btn">
+                                        <!-- <span> 用于对文档中的行内元素进行组合.
+                                                <span> 标签没有固定的格式表现。当对它应用样式时，它才会产生视觉上的变化。
+                                                如果不对 <span> 应用样式，那么 <span> 元素中的文本与其他文本不会任何视觉上的差异。                                           
+                                                <span> 标签提供了一种将文本的一部分或者文档的一部分独立出来的方式 -->
+                                        <a href="#"><i class="ion-close-round"></i></a>
+                                    </div>
+                                    <form action="#">
+                                        <input placeholder="请输入要查找的商品" type="text">
+                                        <button type="submit"><span class="icon icon-Search"></span></button>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- 购物车 -->
+                            <div class="header_account-list  mini_cart_wrapper">
+                                <a href="javascript:void(0)"><i class="icon icon-FullShoppingCart"></i><span
+                                    class="item_count">3</span></a>
+                                <!--mini cart-->
+                                <div class="mini_cart">
+                                    <div class="cart_gallery">
+
+                                        <div class="cart_item">
+                                            <div class="cart_img">
+                                                <a href="#"><img src="assets/img/product/product1.png" ></a>
+                                            </div>
+                                            <div class="cart_info">
+                                                <a href="#">团队款实战篮球鞋</a>
+                                                <p>1 x <span> ￥142.00 </span></p>
+                                            </div>
+                                            <div class="cart_remove">
+                                                <a href="#"><i class="ion-ios-close-outline"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="cart_item">
+                                            <div class="cart_img">
+                                                <a href="#"><img src="assets/img/product/product3.png" ></a>
+                                            </div>
+                                            <div class="cart_info">
+                                                <a href="#">哈登6代签名版专业篮球鞋.</a>
+                                                <p>1 x <span> ￥145.00 </span></p>
+                                            </div>
+                                            <div class="cart_remove">
+                                                <a href="#"><i class="ion-ios-close-outline"></i></a>
+                                            </div>
+                                        </div>
+
+                                        <div class="cart_item">
+                                            <div class="cart_img">
+                                                <a href="#"><img src="assets/img/product/product5.png"></a>
+                                            </div>
+                                            <div class="cart_info">
+                                                <a href="#">麦迪3代复刻版专业篮球鞋.</a>
+                                                <p>1 x <span> ￥179.00 </span></p>
+                                            </div>
+                                            <div class="cart_remove">
+                                                <a href="#"><i class="ion-ios-close-outline"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mini_cart_table">
+                                        <div class="cart_table_border">
+                                            <div class="cart_total">
+                                                <span>总价格:</span>
+                                                <span class="price">￥466.00</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="mini_cart_footer">
+                                        <div class="cart_button">
+                                            <a href="cart.html"><i class="fa fa-shopping-cart"></i> 查看购物车</a>
+                                        </div>
+                                        <div class="cart_button">
+                                            <a href="checkout.html"><i class="fa fa-sign-in"></i> 去结账</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!--mini cart end-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--header area end-->
+
+    <!--轮播文字开始-->
+    <!-- slider_area轮播图插件 -->
+    <div class="slider_area owl-carousel" style="margin-bottom:20px">
+        <!-- single_slider样式 -->
+        <div class="single_slider" data-bgimg="assets/img/slider/slider1.webp">
+            <a href="shop.html"></a>
+        </div>
+        <div class="single_slider" data-bgimg="assets/img/slider/slider2.webp">
+            <a href="shop.html"></a>
+        </div>
+        <div class="single_slider" data-bgimg="assets/img/slider/slider3.webp">
+            <a href="shop.html"></a>
+        </div>
+        <div class="single_slider" data-bgimg="assets/img/slider/slider4.webp">
+            <a href="shop.html"></a>
+        </div>
+        <div class="single_slider" data-bgimg="assets/img/slider/slider5.webp">
+            <a href="shop.html"></a>
+        </div>
+        <div class="single_slider" data-bgimg="assets/img/slider/slider6.webp">
+            <a href="shop.html"></a>
+        </div>
+    </div>
+    <!--轮播文字结束-->
+
+    <!--新上售卡片开始-->
+    <!-- .container 类用于固定宽度并支持响应式布局的容器。 -->
+    <div class="container" style="margin-bottom: 80px">
+        <div class="row">
+            <div class="col-12">
+                <div class="product_header">
+                    <div class="section_title">
+                        <h2>新 <span>上售</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur elit.</p>
+                    </div>
+                    <div class="product_tab_btn">
+                        <ul class="nav">
+                            <li>
+                                <a class="active" data-toggle="tab" href="#classic" aria-selected="true">
+                                    经典
+                                </a>
+                            </li>
+                            <li>
+                                <a data-toggle="tab" href="#display" aria-selected="false">
+                                    推荐
+                                </a>
+                            </li>
+                            <li>
+                                <a data-toggle="tab" href="#processor" aria-selected="false">
+                                    爆款
+                                </a>
+                            </li>
+                            <li>
+                                <a data-toggle="tab" href="#accessories" aria-selected="false">
+                                    折扣
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="tab-content">
+            <!-- 经典鞋子卡片 -->
+            <div class="tab-pane fade show active" id="classic">
+                <div class="row">
+                    <div class="product_carousel product_column4 owl-carousel">
+                        <div class="col-lg-3">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                        </div>
+                                        <a class="primary_img" href="product-details.html">
+                                            <img src="assets/img/product/img1.jpeg" ></a>
+                                        <a class="secondary_img" href="product-details.html">
+                                            <img src="assets/img/product/img2.jpeg" ></a>
+                                    </div>
+                                    <!-- <figcaption> 标签为 <figure> 元素定义标题。
+                                    <figcaption> 元素应该被置于 <figure> 元素的第一个或最后一个子元素的位置。 -->
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html">KD12</a></h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥142.00</span>
+                                            <span class="old_price">￥173.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+                        <div class="col-lg-3">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/img3.jpeg" ></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/img4.jpeg"></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html"> KT3</a>
+                                        </h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥145.00</span>
+                                            <span class="old_price">￥178.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+                        <div class="col-lg-3">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/img5.jpeg" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/img6.jpeg" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html">Nike Kyrie 3 大红</a>
+                                        </h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥179.00</span>
+                                            <span class="old_price">￥190.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+                        <div class="col-lg-3">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/img7.jpeg" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/img8.jpeg" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html"> PG3</a>
+                                        </h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥220.00</span>
+                                            <span class="old_price">￥240.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+                        <div class="col-lg-3">
+    
+                            <article class="single_product">
+    
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/img11.webp" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/img12.jpeg" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html">Nike LeBron 藏蓝金</a>
+                                        </h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥142.00</span>
+                                            <span class="old_price">￥173.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <!-- 推荐鞋子卡片 -->
+    
+            <div class="tab-pane fade" id="display" role="tabpanel">
+                <div class="row">
+                    <div class="product_carousel product_column4 owl-carousel">
+                        <div class="col-lg-3">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/product3.png" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/product4.png" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html"> 哈登6代签名版专业篮球鞋</a>
+                                        </h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥145.00</span>
+                                            <span class="old_price">￥178.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+                        <div class="col-lg-3">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/product7.png" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/product8.png" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html"> 米切尔3代签名版专业篮球鞋</a>
+                                        </h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥220.00</span>
+                                            <span class="old_price">￥240.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+                        <div class="col-lg-3">
+    
+                            <article class="single_product">
+    
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/product1.png" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/product2.png" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html">团队款实战篮球鞋</a></h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥142.00</span>
+                                            <span class="old_price">￥173.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+    
+    
+    
+                        <div class="col-lg-3">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/product9.png" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/product10.png" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html"> 哈德篮球鞋</a></h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥225.00</span>
+                                            <span class="old_price">￥235.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+    
+                        <div class="col-lg-3">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/product5.png" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/product6.png" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html">麦迪3代复刻版专业篮球鞋</a>
+                                        </h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥179.00</span>
+                                            <span class="old_price">￥190.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+    
+                        <div class="col-lg-3">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/product7.png" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/product8.png" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html"> 米切尔3代签名版专业篮球鞋</a>
+                                        </h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥220.00</span>
+                                            <span class="old_price">￥240.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+    
+                        <div class="col-lg-3">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/product9.png" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/product10.png" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html"> 哈德篮球鞋</a></h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥225.00</span>
+                                            <span class="old_price">￥235.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 爆款鞋子卡片 -->
+    
+            <div class="tab-pane fade" id="processor" role="tabpanel">
+                <div class="row">
+                    <div class="product_carousel product_column4 owl-carousel">
+    
+    
+                        <div class="col-lg-3">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/product3.png" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/product4.png" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html"> 哈登6代签名版专业篮球鞋</a>
+                                        </h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥145.00</span>
+                                            <span class="old_price">￥178.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+                        <div class="col-lg-3">
+    
+                            <article class="single_product">
+    
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/product1.png" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/product2.png" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html">团队款实战篮球鞋</a></h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥142.00</span>
+                                            <span class="old_price">￥173.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+                        <div class="col-lg-3">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/product5.png" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/product6.png" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html">麦迪3代复刻版专业篮球鞋</a>
+                                        </h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥179.00</span>
+                                            <span class="old_price">￥190.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+                        <div class="col-lg-3">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/product7.png" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/product8.png" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html"> 米切尔3代签名版专业篮球鞋</a>
+                                        </h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥220.00</span>
+                                            <span class="old_price">￥240.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+                        <div class="col-lg-3">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/product9.png" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/product10.png" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html"> 哈德篮球鞋</a></h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥225.00</span>
+                                            <span class="old_price">￥235.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 折扣鞋子卡片 -->
+            <div class="tab-pane fade" id="accessories" role="tabpanel">
+    
+                <div class="row">
+                    <div class="product_carousel product_column4 owl-carousel">
+    
+    
+    
+                        <div class="col-lg-3">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                            <span class="label_sale">12%</span>
+    
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/product3.png" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/product4.png" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html"> 哈登6代签名版专业篮球鞋</a>
+                                        </h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥145.00</span>
+                                            <span class="old_price">￥178.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+    
+                        <div class="col-lg-3">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                            <span class="label_sale">12%</span>
+    
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/product5.png" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/product6.png" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html">麦迪3代复刻版专业篮球鞋</a>
+                                        </h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥179.00</span>
+                                            <span class="old_price">￥190.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+    
+                        <div class="col-lg-3">
+    
+                            <article class="single_product">
+    
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                            <span class="label_sale">12%</span>
+    
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/product1.png" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/product2.png" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html">团队款实战篮球鞋</a></h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥142.00</span>
+                                            <span class="old_price">￥173.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+                        <div class="col-lg-3">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                            <span class="label_sale">12%</span>
+    
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/product7.png" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/product8.png" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html"> 米切尔3代签名版专业篮球鞋</a>
+                                        </h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥220.00</span>
+                                            <span class="old_price">￥240.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+    
+                        <div class="col-lg-3">
+                            <article class="single_product">
+                                <figure>
+                                    <div class="product_thumb">
+                                        <div class="label_product">
+                                            <span class="label_new">new</span>
+                                            <span class="label_sale">12%</span>
+    
+                                        </div>
+                                        <a class="primary_img" href="product-details.html"><img
+                                                src="assets/img/product/product9.png" alt=""></a>
+                                        <a class="secondary_img" href="product-details.html"><img
+                                                src="assets/img/product/product10.png" alt=""></a>
+    
+                                    </div>
+                                    <figcaption class="product_content">
+                                        <div class="product_rating">
+                                            <ul>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                                <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="product_name"><a href="product-details.html"> 哈德篮球鞋</a></h4>
+                                        <div class="price_box">
+                                            <span class="current_price">￥225.00</span>
+                                            <span class="old_price">￥235.00</span>
+                                        </div>
+                                        <div class="add_to_cart">
+                                            <a href="cart.html" title="Add to cart">添加购物车</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <!--新上售卡片结束-->
+
+    <!--最畅销卡片开始-->
+    <div class="product_area  mb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section_title">
+                        <h2>最 <span>畅销</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="product_carousel product_column4 owl-carousel">
+
+
+
+                    <div class="col-lg-3">
+                        <article class="single_product">
+                            <figure>
+                                <div class="product_thumb">
+                                    <div class="label_product">
+                                        <span class="label_new">new</span>
+                                    </div>
+                                    <a class="primary_img" href="product-details.html"><img
+                                            src="assets/img/product/img9.jpg" alt=""></a>
+                                    <a class="secondary_img" href="product-details.html"><img
+                                            src="assets/img/product/img10.jpg" alt=""></a>
+
+                                </div>
+                                <figcaption class="product_content">
+                                    <div class="product_rating">
+                                        <ul>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <h4 class="product_name"><a href="product-details.html"> 麦迪3代复刻版专业篮球鞋</a></h4>
+                                    <div class="price_box">
+                                        <span class="current_price">￥225.00</span>
+                                        <span class="old_price">￥235.00</span>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <a href="cart.html" title="Add to cart">添加购物车</a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <article class="single_product">
+                            <figure>
+                                <div class="product_thumb">
+                                    <div class="label_product">
+                                        <span class="label_new">new</span>
+                                    </div>
+                                    <a class="primary_img" href="product-details.html"><img
+                                            src="assets/img/product/img15.jpg" alt=""></a>
+                                    <a class="secondary_img" href="product-details.html"><img
+                                            src="assets/img/product/img16.jpg" alt=""></a>
+
+                                </div>
+                                <figcaption class="product_content">
+                                    <div class="product_rating">
+                                        <ul>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <h4 class="product_name"><a href="product-details.html">Air Jordan XXXVI FS PF</a>
+                                    </h4>
+                                    <div class="price_box">
+                                        <span class="current_price">￥179.00</span>
+                                        <span class="old_price">￥190.00</span>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <a href="cart.html" title="Add to cart">添加购物车</a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <article class="single_product">
+                            <figure>
+                                <div class="product_thumb">
+                                    <div class="label_product">
+                                        <span class="label_new">new</span>
+                                    </div>
+                                    <a class="primary_img" href="product-details.html"><img
+                                            src="assets/img/product/img17.jpg" alt=""></a>
+                                    <a class="secondary_img" href="product-details.html"><img
+                                            src="assets/img/product/img18.jpg" alt=""></a>
+
+                                </div>
+                                <figcaption class="product_content">
+                                    <div class="product_rating">
+                                        <ul>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <h4 class="product_name"><a href="product-details.html"> DAME 8 利拉德签名版专业篮球鞋</a></h4>
+                                    <div class="price_box">
+                                        <span class="current_price">￥220.00</span>
+                                        <span class="old_price">￥240.00</span>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <a href="cart.html" title="Add to cart">添加购物车</a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <article class="single_product">
+                            <figure>
+                                <div class="product_thumb">
+                                    <div class="label_product">
+                                        <span class="label_new">new</span>
+                                    </div>
+                                    <a class="primary_img" href="product-details.html"><img
+                                            src="assets/img/product/img19.jpg" alt=""></a>
+                                    <a class="secondary_img" href="product-details.html"><img
+                                            src="assets/img/product/img20.jpg" alt=""></a>
+
+                                </div>
+                                <figcaption class="product_content">
+                                    <div class="product_rating">
+                                        <ul>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <h4 class="product_name"><a href="product-details.html"> 特雷杨1代签名版专业篮球鞋</a></h4>
+                                    <div class="price_box">
+                                        <span class="current_price">￥225.00</span>
+                                        <span class="old_price">￥235.00</span>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <a href="cart.html" title="Add to cart">添加购物车</a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+                    <div class="col-lg-3">
+                        <article class="single_product">
+                            <figure>
+                                <div class="product_thumb">
+                                    <div class="label_product">
+                                        <span class="label_new">new</span>
+                                    </div>
+                                    <a class="primary_img" href="product-details.html"><img
+                                            src="assets/img/product/img13.jpg" alt=""></a>
+                                    <a class="secondary_img" href="product-details.html"><img
+                                            src="assets/img/product/img14.jpg" alt=""></a>
+
+                                </div>
+                                <figcaption class="product_content">
+                                    <div class="product_rating">
+                                        <ul>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                            <li><a href="#"><i class="icon icon-Star"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <h4 class="product_name"><a href="product-details.html"> 青年版男子减震回弹篮球场地鞋</a></h4>
+                                    <div class="price_box">
+                                        <span class="current_price">￥145.00</span>
+                                        <span class="old_price">￥178.00</span>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <a href="cart.html" title="Add to cart">添加购物车</a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--最畅销卡片结束-->
+
+
+
+    <!--博客分享开始-->
+    <section class="blog_section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="section_title">
+                        <h2>最新的 <span>精彩博客</span></h2>
+                        <p>这里有最新的博客帖子</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="align-items:flex-end">
+                <div class="blog_carousel blog_column3 owl-carousel">
+                    <div class="col-lg-3">
+                        <article class="single_blog">
+                            <figure>
+                                <div class="blog_thumb">
+                                    <a href="blog-details.html"><img style="width: 400px;  height: 300px;" src="assets/img/blog/bol1.jpeg" alt=""></a>
+                                </div>
+                                <figcaption class="blog_content">
+                                    <h4 class="post_title"><a href="blog-details.html">很高兴见到你，我漂亮的新鞋子。 </a></h4>
+                                    <div class="articles_date">
+                                        <span><i class="fa fa-calendar" aria-hidden="true"></i> 18/06/2022</span>
+                                        <span><i class="fa fa-user" aria-hidden="true"></i> 汤姆</span>
+                                    </div>
+                                    <p class="post_desc">生命不息，运动不止！</p>
+                                    <a href="blog.html">+ 查看更多</a>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+                    <div class="col-lg-3">
+                        <article class="single_blog">
+                            <figure>
+                                <div class="blog_thumb">
+                                    <a href="blog-details.html"><img style="width: 400px;  height: 300px;"src="assets/img/blog/bol2.jpeg" alt=""></a>
+                                </div>
+                                <figcaption class="blog_content">
+                                    <h4 class="post_title"><a href="blog-details.html"> “这是我们的祈祷”
+                                            呃，这是我的选择</a></h4>
+                                    <div class="articles_date">
+                                        <span><i class="fa fa-calendar" aria-hidden="true"></i> 18/06/2022</span>
+                                        <span><i class="fa fa-user" aria-hidden="true"></i> 杰瑞</span>
+                                    </div>
+                                    <p class="post_desc">生命不息，运动不止！</p>
+                                    <a href="blog.html">+ 查看更多</a>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+                    <div class="col-lg-3">
+                        <article class="single_blog">
+                            <figure>
+                                <div class="blog_thumb">
+                                    <a href="blog-details.html"><img style="width: 400px;  height: 300px;"src="assets/img/blog/bol3.jpeg" ></a>
+                                </div>
+                                <figcaption class="blog_content">
+                                    <h4 class="post_title"><a href="blog-details.html">" 选择，选择，我来教你选择" </a></h4>
+                                    <div class="articles_date">
+                                        <span><i class="fa fa-calendar" aria-hidden="true"></i> 18/06/2022</span>
+                                        <span><i class="fa fa-user" aria-hidden="true"></i> 布里托</span>
+                                    </div>
+                                    <p class="post_desc">生命不息，运动不止！</p>
+                                    <a href="blog.html">+ 查看更多</a>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+                    <div class="col-lg-3">
+                        <article class="single_blog">
+                            <figure>
+                                <div class="blog_thumb">
+                                    <a href="blog-details.html"><img style="width: 400px;  height: 300px;" src="assets/img/blog/blog4.jpg" ></a>
+                                </div>
+                                <figcaption class="blog_content">
+                                    <h4 class="post_title"><a href="blog-details.html">真实美好的一天啊 </a></h4>
+                                    <div class="articles_date">
+                                        <span><i class="fa fa-calendar" aria-hidden="true"></i> 18/06/2022</span>
+                                        <span><i class="fa fa-user" aria-hidden="true"></i> 史蒂夫</span>
+                                    </div>
+                                    <p class="post_desc">生命不息，运动不止！</p>
+                                    <a href="blog.html">+ 查看更多</a>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+                    <div class="col-lg-3">
+                        <article class="single_blog">
+                            <figure>
+                                <div class="blog_thumb">
+                                    <a href="blog-details.html"><img style="width: 400px;  height: 300px;" src="assets/img/blog/blog5.jpg" ></a>
+                                </div>
+                                <figcaption class="blog_content">
+                                    <h4 class="post_title"><a href="blog-details.html">一日之计在于晨 </a></h4>
+                                    <div class="articles_date">
+                                        <span><i class="fa fa-calendar" aria-hidden="true"></i> 18/06/2022</span>
+                                        <span><i class="fa fa-user" aria-hidden="true"></i> 苏西</span>
+                                    </div>
+                                    <p class="post_desc">生命不息，运动不止！</p>
+                                    <a href="blog.html">+ 查看更多</a>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--博客结束-->
+
+
+
+    <!--footer area start-->
+    <footer class="footer_widgets">
+
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="copyright_area">
+                            <p>Copyright &copy; 2022.Company name All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="footer_social">
+                            <ul>
+                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                                <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                                <li><a href="#"><i class="ion-social-youtube-outline"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer area end-->
+
+
+
+    <!-- JS
+============================================ -->
+    <!--jquery min js-->
+    <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
+    <!--popper min js-->
+    <script src="assets/js/popper.js"></script>
+    <!--引入bootstrap min js-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- 轮播图插件对应的脚本 -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!--slick min js-->
+    <script src="assets/js/slick.min.js"></script>
+    <!--magnific popup min js-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!--counterup min js-->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!--jquery countdown min js-->
+    <script src="assets/js/jquery.countdown.js"></script>
+    <!--jquery ui min js-->
+    <script src="assets/js/jquery.ui.js"></script>
+    <!--jquery elevatezoom min js-->
+    <script src="assets/js/jquery.elevatezoom.js"></script>
+    <!--isotope packaged min js-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!--slinky menu js-->
+    <script src="assets/js/slinky.menu.js"></script>
+    <!-- Plugins JS -->
+    <!-- 引入第三方的文字脚本库 -->
+    <script src="assets/js/plugins.js"></script>
+
+    <!-- Main JS -->
+    <!-- 当前页面上自己写的脚本 -->
+    <script src="assets/js/main.js"></script>
+
+
+
+</body>
+
+</html>
